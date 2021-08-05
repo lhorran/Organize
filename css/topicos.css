@@ -1,0 +1,26 @@
+.topicos{
+	background-color: #FFF2E0;
+}
+.temas{
+	border-width: 10px;
+	border-style: solid;
+	border-color: #174A54;
+	display: inline-block;
+	background-color: red;
+	width: 180px;
+	height: 230px;
+	background-image: url(../img/fundoAzul.png);
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 90px;
+	margin-bottom: 50px;
+}
+
+ .imagem{
+	padding: 20px;
+}
+.titulo{
+	text-align: center;
+	font-family: arial;
+	font-size: 20px;
+}

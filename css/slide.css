@@ -1,0 +1,57 @@
+.slide{
+	width: 960px;
+	height: 260px;
+	margin: 0 auto;
+	background-color: pink;
+}
+
+.veja-mais{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 960px;
+	height: 120px;
+	margin: 0 auto;
+	background-color: #00CEEF;
+}
+.barra-slide{
+	width: 800px;
+	height: 15px;
+	background-color: #174A54;
+	float: right;
+	margin: 10px 30px 10px 0px;
+}
+
+.img-veja-mais{
+	border-radius: 10px;
+	width: 100px;
+	height: 100px;
+	background-color: #174A54;
+	float: right;
+	margin: 10px 15px;
+}
+.conteudo-veja-mais{
+	width: 800px;
+	height: 70px;
+}
+
+.img-veja-mais img{
+	padding-top: 10px ;
+	padding-left:10px ;
+	width: 80px ;
+	height: 80px ;
+}
+.botao-veja-mais{
+	border-style: solid;
+	border-color: black;
+	background-color: orange;
+	border-width: 1px;
+	border-radius: 15px;
+	padding: 2px 7px ;
+	margin-left: 5px;
+}
+.texto-veja-mais{
+	line-height: 23px;
+	font-size: 15px;
+	font-family: arial;
+}
