@@ -5,6 +5,7 @@
 	border-width: 10px;
 	border-style: solid;
 	border-color: #174A54;
+	border-radius: 10px;
 	display: inline-block;
 	background-color: red;
 	width: 180px;
@@ -17,10 +18,19 @@
 }
 
  .imagem{
-	padding: 20px;
+	padding: 15px;
+}
+ .imagem img{
+ 	border-style: double;
+ 	border-width: 7px;
+ 	border-color: #174A54 ;
+ 	padding: 5px;
+
+
 }
 .titulo{
 	text-align: center;
 	font-family: arial;
 	font-size: 20px;
+	color: black;
 }
