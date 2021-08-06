@@ -1,0 +1,37 @@
+.footer{
+	display: flex;
+	margin: 0 auto;
+}
+.bar1{
+	display: inline-block;
+	width: 30%;
+	height: 160px;
+	background-color: #1C1C1C;
+	color:  white;
+}
+.bar1 h2{
+	text-align: center;
+}
+.bar1 ul{
+	list-style-type: none;
+}
+.bar1 li{
+	line-height: 45px;
+}
+
+.bar-diviser{
+	width: 0.3%;
+	height: 160px;
+	display: inline-block;
+	background-color: #363636;
+
+}
+.bar2{
+	display: inline-block;
+	width: 69.8%;
+	height: 160px;
+	background-color: #1C1C1C;
+}
+.bar2 img{
+	padding: 25px 100px 0px 50px;
+}
