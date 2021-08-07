@@ -29,6 +29,18 @@
 	float: right;
 	margin: 10px 15px;
 }
+.img-slide-extra1{
+	display: inline-block;
+	transform: translate(30px, -120px);
+	width: 90px ;
+	height: 90px ;
+}
+.img-slide-extra2{
+	display: inline-block;
+	transform: translate(200px, -120px);
+	width: 90px ;
+	height: 90px ;
+}
 .conteudo-veja-mais{
 	width: 800px;
 	height: 70px;
