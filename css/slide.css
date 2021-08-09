@@ -13,12 +13,42 @@
 	margin: 0 auto;
 	background-color: #00CEEF;
 }
+.slide-img{
+	width: 960px;
+	height: 260px ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition-duration:1s;
+
+}
+#teste{
+	opacity: 0;
+	position: relative;
+	top: -30px;
+	transform: translate(20px, 30px);
+	width: 86px;
+	height: 86px;
+}
+.teste1{
+	transition: 0.5s;
+}
+.btn{
+	height: 80px;
+	margin: 10px;
+	cursor: pointer;
+}
 .barra-slide{
 	width: 800px;
 	height: 15px;
 	background-color: #174A54;
 	float: right;
 	margin: 10px 30px 10px 0px;
+}
+.barra-carregar{
+	height: 15px;
+	background-color: orange;
+	float: left;
 }
 
 .img-veja-mais{
