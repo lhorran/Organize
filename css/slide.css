@@ -26,7 +26,7 @@
 	opacity: 0;
 	position: relative;
 	top: -30px;
-	left: -580px;
+	left: -130px;
 	width: 86px;
 	height: 86px;
 }
@@ -35,6 +35,14 @@
 	position: relative;
 	top: -30px;
 	left: 20px;
+	width: 86px;
+	height: 86px;
+}
+#animacao-obj3{
+	opacity: 1;
+	position: relative;
+	top: 0px;
+	right: 93px;
 	width: 86px;
 	height: 86px;
 }

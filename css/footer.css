@@ -11,12 +11,14 @@
 }
 .bar1 h2{
 	text-align: center;
+	 cursor: default;
 }
 .bar1 ul{
 	list-style-type: none;
 }
 .bar1 li{
 	line-height: 45px;
+	cursor: default;
 }
 
 .bar-diviser{
@@ -32,6 +34,51 @@
 	height: 160px;
 	background-color: #1C1C1C;
 }
+
 .bar2 img{
+	cursor: pointer;
 	padding: 25px 100px 0px 50px;
+}
+
+.wp{
+	transition-duration: 0.6s;
+}
+.wp:hover{
+	filter: invert(100%);
+}
+
+.inst{
+	transition-duration: 0.6s;
+
+}
+
+.inst:hover{
+	filter: invert(100%);
+
+}
+
+.fc{
+	transition-duration: 0.6s;
+}
+
+.fc:hover{
+	filter: invert(100%);
+}
+
+
+.wt{
+	display: inline-block;
+	padding-right: 130px;
+	padding-left: 30px;
+	cursor: pointer;
+}
+
+.it{
+	display: inline-block;
+	padding-right: 120px;
+	cursor: pointer;
+}
+.ft{
+	display: inline-block;
+	cursor: pointer;
 }
