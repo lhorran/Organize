@@ -1,5 +1,5 @@
 .topicos{
-	background-color: #FFF2E0;
+	background-image: linear-gradient(30deg, #FFDAB9, #FFE4C4 60%);
 }
 .temas{
 	border-width: 10px;
@@ -15,18 +15,47 @@
 	margin-left: 50px;
 	margin-top: 90px;
 	margin-bottom: 50px;
+	transition-duration: 1s;
 }
+.temas:hover .titulo{
+	text-shadow: 0.1em 0.1em 0.05em black;
+	color: orange;
+	top: -15px;
+}
+.temas:hover{
+	border-radius: 25px;
+}
+
+.titulo{
+	position: relative;
+	top: 0px;
+	transition-duration: 0.5s;
+}
+
 
  .imagem{
 	padding: 15px;
 }
  .imagem img{
+ 	width: 130px;
+ 	height: 130px;
  	border-style: double;
  	border-width: 7px;
- 	border-color: #174A54 ;
+ 	border-color: #174A54;
  	padding: 5px;
+ 	transition-duration: 0.5s;
+ 	filter: brightness(30%) blur(1px);
 
 
+}
+
+.imagem:hover img{
+	border-color: orange;
+	filter: brightness(100%);
+	margin: -5px;
+	border-radius: 50px;
+	width: 140px ;
+	height: 140px ;
 }
 .titulo{
 	text-align: center;
