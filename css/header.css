@@ -1,5 +1,4 @@
-.menu{
-	background-image: url(../img/fundoLogonew.jpg);
+.header{
 	height: 200px;
 }
 .logo{
@@ -11,6 +10,19 @@
 	width: 200px;
 	height: 195px;
 }
+
+
+.divisa-menu-slide{
+	margin: 0 auto;
+	width: 960px;
+	height: 2px;
+	background-color: grey;
+}
+
+
+/*
+
+############ Em desuso ###############
 
 .linha-divisor-botao{
 	background-color: white;
@@ -31,8 +43,6 @@
 	float: right;
 	transform: rotateZ(180deg);
 }
-
-	/*Botoes*/
 .barra li{
 	display: inline-block;
 }
@@ -50,9 +60,4 @@
 	transform: translateY(-15px);
 }
 
-.divisa-menu-slide{
-	margin: 0 auto;
-	width: 960px;
-	height: 12px;
-	background-color: #191970;
-}
+*/
