@@ -1,63 +1,56 @@
 .header{
-	height: 200px;
+	height: 100px;
+	display: flex;
+	border-radius: 5px;
+}
+
+/* ########## Logo ######### */
+.contato{
+	background-color: blue;
+	height: 70px;
 }
 .logo{
 	display: inline-block;
-	transform: translateX(360px);
-}
-.logo .logo_img{
-	display: inline-block;
-	width: 200px;
-	height: 195px;
 }
 
+.logo .logo_img{
+
+	width: 330px;
+	height: 100px;
+	padding: 0px 150px 10px 110px;
+}
+
+
+/* ########## Botoes header ######### */
+
+.botoes-header li{
+	font-size: 23px;
+	display: inline-block;
+	padding-top: 25px;
+	padding-right: 30px;
+}
+
+.botoes-header a{
+	text-decoration: none;
+	color: cyan;
+	border-radius: 0px;
+	transition-duration: 0.5s;
+	border-style: solid;
+	border-color: white;
+	padding: 5px 12px 5px 12px;
+}
+.botoes-header a:hover{
+	background-color: blue;
+	border-style: solid;
+	border-radius: 20px;
+	padding: 5px 12px 5px 12px;
+}
+
+/* ########## Divisoria do header com o slide ######## */
 
 .divisa-menu-slide{
-	margin: 0 auto;
-	width: 960px;
 	height: 2px;
 	background-color: grey;
 }
 
 
-/*
-
-############ Em desuso ###############
-
-.linha-divisor-botao{
-	background-color: white;
-	height: 4px;
-}
-.barra{
-	display: inline-block;
-	width: 350px;
-	height: 30px;
-	background-color: white;
-	float: right;
-
-}
-
-.trian{
-	width: 30px;
-	height: 30px;
-	float: right;
-	transform: rotateZ(180deg);
-}
-.barra li{
-	display: inline-block;
-}
-.barra a{
-	padding: 0px 14px ;
-	font-size: 25px;
-	color: #388FD6;
-
-}
-.barra a:hover{
-	color: orange;
-	text-decoration: none;
-}
-.barra ul{
-	transform: translateY(-15px);
-}
-
-*/

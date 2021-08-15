@@ -1,5 +1,5 @@
 var tempo, img_atual, max_img, tempo_troca;
-var load = document.getElementById("barra-carregar");
+//var load = document.getElementById("barra-carregar");
 var slider = document.getElementById("slide");
 var position = 1;
 var imgs = [];
@@ -76,7 +76,7 @@ function anima() {
 		troca(1);
 	}
 	tempo = tempo_troca/4;
-	load.style.width = tempo + "%";
+	//load.style.width = tempo + "%";
 	window.requestAnimationFrame(anima);
 }
 
