@@ -6,7 +6,8 @@
 
 /* ########## Logo ######### */
 .contato{
-	background-color: blue;
+	display: flex;
+	background-color: #000080;
 	height: 70px;
 }
 .logo{
@@ -32,7 +33,7 @@
 
 .botoes-header a{
 	text-decoration: none;
-	color: cyan;
+	color: black;
 	border-radius: 0px;
 	transition-duration: 0.5s;
 	border-style: solid;
@@ -40,7 +41,8 @@
 	padding: 5px 12px 5px 12px;
 }
 .botoes-header a:hover{
-	background-color: blue;
+	color: #ADD8E6;
+	background-color: #4682B4;
 	border-style: solid;
 	border-radius: 20px;
 	padding: 5px 12px 5px 12px;
@@ -50,7 +52,7 @@
 
 .divisa-menu-slide{
 	height: 2px;
-	background-color: grey;
+	background-color: blue;
 }
 
 

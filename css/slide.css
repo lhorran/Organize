@@ -1,18 +1,12 @@
 /* ############## Slide ############# */
 .Slide{
-	width: 960px;
-	height: 260px;
+	background-color: blue;
+	height: 340px;
 	margin: 0 auto;
+	transition-duration: 1s;
 }
 
 .slide-img{
-	width: 960px;
-	height: 260px ;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	transition-duration:1s;
-
 }
 
 /* ########## objetos ########## */
