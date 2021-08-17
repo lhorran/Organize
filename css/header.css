@@ -6,9 +6,24 @@
 
 /* ########## Logo ######### */
 .contato{
-	display: flex;
-	background-color: #000080;
+	background-color: #00229E;
 	height: 70px;
+}
+.contato img{
+	position: relative;
+	top: 10px;
+	padding-top: 10px;
+	filter: invert(90%);
+	display: inline-block;
+	padding-right: 10px;
+}
+.contato p{
+	padding-right: 50px;
+	color: white;
+	display: inline-block;
+}
+.contato .wp{
+	padding-left: 200px;
 }
 .logo{
 	display: inline-block;
@@ -41,18 +56,11 @@
 	padding: 5px 12px 5px 12px;
 }
 .botoes-header a:hover{
-	color: #ADD8E6;
+	color: white;
 	background-color: #4682B4;
 	border-style: solid;
 	border-radius: 20px;
 	padding: 5px 12px 5px 12px;
-}
-
-/* ########## Divisoria do header com o slide ######## */
-
-.divisa-menu-slide{
-	height: 2px;
-	background-color: blue;
 }
 
 

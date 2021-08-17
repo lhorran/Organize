@@ -1,6 +1,8 @@
 var tempo, img_atual, max_img, tempo_troca;
 var slider = document.getElementById("slide");
 var load = document.getElementById("barra");
+var teste = document.getElementById("tx2");
+var cont = 1;
 var position = 1;
 var imgs = [];
 function preload(){
@@ -12,6 +14,20 @@ function preload(){
 }
 function carregar(img){
 	slider.style.backgroundImage = "url('"+  imgs[img].src + "')";
+	if (cont == 1) {
+		teste.style.top="-40px";
+		teste.style.opacity="0";
+	}
+	else if(cont == 2){
+		teste.style.opacity="1";
+		teste.style.display="inline-block";
+		teste.style.top="10px";
+	}
+	cont ++;
+	if (cont > 2) {
+		cont = 1;
+	}
+
 }
 
 function troca(diretorio){
