@@ -1,7 +1,9 @@
 var tempo, img_atual, max_img, tempo_troca;
 var slider = document.getElementById("slide");
 var load = document.getElementById("barra");
-var teste = document.getElementById("tx2");
+var tx1 = document.getElementById("tx1");
+var tx2 = document.getElementById("tx2");
+var tx3 = document.getElementById("tx3");
 var cont = 1;
 var position = 1;
 var imgs = [];
@@ -15,16 +17,21 @@ function preload(){
 function carregar(img){
 	slider.style.backgroundImage = "url('"+  imgs[img].src + "')";
 	if (cont == 1) {
-		teste.style.top="-40px";
-		teste.style.opacity="0";
-	}
+		tx1.style.opacity="1";
+		tx2.style.opacity="0";
+		tx3.style.opacity="0";
+		}
 	else if(cont == 2){
-		teste.style.opacity="1";
-		teste.style.display="inline-block";
-		teste.style.top="10px";
+		tx1.style.opacity="0";
+		tx2.style.opacity="1";
+		tx3.style.opacity="0";
+	}
+	else if(cont == 3){
+		tx3.style.opacity="1";
+		tx3.style.top="-90px"
 	}
 	cont ++;
-	if (cont > 2) {
+	if (cont > 3) {
 		cont = 1;
 	}
 
@@ -48,10 +55,10 @@ function troca(diretorio){
 
 function anima() {
 	tempo_troca++;
-	if (tempo_troca >= 400) {
+	if (tempo_troca >= 300) {
 		troca(1);
 	}
-	tempo = tempo_troca/4;
+	tempo = tempo_troca/3;
 	load.style.width = tempo + "%";
 	window.requestAnimationFrame(anima);
 }
