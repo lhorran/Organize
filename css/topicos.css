@@ -1,66 +1,52 @@
 /* ############ Topicos ######### */
 nav{
+	cursor: default;
+	display: flex;
 	background-color:  #B0C4DE;
 }
-.temas{
-	border-width: 3px;
+.topc{
+	border-width: 2px;
 	border-style: solid;
 	border-color: #174A54;
 	border-radius: 10px;
 	display: inline-block;
-	width: 180px;
-	height: 230px;
-	background-color: #B0C4DE;
-	margin-right: 50px;
+	width: 220px;
+	height: 340px;
+	margin-right: 40px;
 	margin-left: 60px;
-	margin-top: 90px;
-	margin-bottom: 50px;
-	transition-duration: 1s;
+	margin-top: 70px;
+	margin-bottom: 70px;
 }
-.temas:hover{
-	border-radius: 25px;
-	cursor: pointer;
+.topc:hover{
+background-color: rgba(255, 255, 255, 0.2);
 }
 
-
- .imagem{
-	padding: 15px;
-}
- .imagem img{
- 	width: 130px;
- 	height: 130px;
- 	border-style: double;
- 	border-width: 7px;
- 	border-color: #174A54;
- 	padding: 5px;
- 	transition-duration: 0.5s;
- 	filter: brightness(30%) blur(1px);
-
-
-}
-
-.temas:hover img {
-	border-color: #008B8B;
-	filter: brightness(100%);
-	margin: -5px;
-	border-radius: 50px;
-	width: 140px ;
-	height: 140px ;
-}
 .titulo{
+	text-align: center ;
+	font-size: 23px;
+}
+.topc .titulo p{
+	display: inline-block;
+	
+}
+
+.topc .texto p{
+	margin: 0;
+	display: inline-block;
 	text-align: center;
-	font-family: arial;
-	font-size: 20px;
+}
+
+.temas a{
+	display: inline-block;
 	color: black;
+}
+.topc .botao{
+	display: inline-block;
+	padding-left: 75PX;
+}
 
+.temas img{
 	position: relative;
-	top: 0px;
-	transition-duration: 0.5s;
-}
-
-.temas:hover .titulo{
-	text-shadow: 0.1em 0.1em 0.05em black;
-	color: #008B8B;
-	top: -15px;
-	border-radius: 10px;
-}
+	padding-top: 20px;
+	left: 20%;
+} 

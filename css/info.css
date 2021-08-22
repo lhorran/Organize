@@ -28,8 +28,9 @@
 	transform: translate(130px, -125px);
 }
 .content-img-info .texto-img p{
-	font-family: 'Permanent Marker', cursive;
-	color: black;
+	text-shadow: 1px 4px 2px #001F51;
+	font-family: 'Anton', sans-serif;
+	color: #4682B4;
 	margin: 0px;
 	text-align: center;
 	transition-duration: 1s;
@@ -52,9 +53,27 @@
 /*############# Texto principal############*/
 
 .texto .texto-principal{
-	padding-top: 10px;
+	color: #4F4F4F;
+	padding-top: 20px;
 	font-family: 'Comfortaa', cursive;
 	font-size: 18px;
+	text-align: left;
+}
+.bem{
+	color: #001F51;
+}
+.vindo{
+	color: #4682B4;
+}
+
+.boas-vindas p{
+	position: relative;
+	left: 150px;
+	top: 15px;
+	font-family: 'Lobster', cursive;
+	display: inline-block;
+	margin: 0;
+	font-size: 50px;
 }
 
 /*Bar*/
@@ -78,17 +97,18 @@
 	width: 300px ;
 	height: 70px ;
 	text-align: center;
+	color: #4F4F4F;
 }
 
 .content-texto-info a{
-	font-size: 20px;
+	font-size: 25px;
 	display: inline-block;
 	position: relative;
-	left: 170px;
-	top: 10px;
+	left: 160px;
+	top: 45px;
 	text-decoration: none;
 	color: black;
-	background-color: red;
+	background-color: #4682B4;
 	padding: 5px;
 	border-radius: 20px;
 	transition-duration: 0.3s;
@@ -97,7 +117,7 @@
 
 .content-texto-info:hover a{
 	padding: 7px;
-	background-color: blue;
+	background-color: #4682B4;
 	color: white;
 }
 

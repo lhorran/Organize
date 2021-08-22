@@ -3,3 +3,8 @@ body{
 	height: 100%;
 	margin: 0px;
 }
+.barra-divisoria{
+	background-color: grey;
+	width: 100%;
+	height: 2px;
+}
