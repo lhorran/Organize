@@ -1,0 +1,67 @@
+.header{
+	height: 100px;
+	display: flex;
+	border-radius: 5px;
+}
+
+/* ########## Logo ######### */
+.contato{
+	text-align: left;
+	background-color: #001F51;
+	height: 60px;
+}
+.contato img{
+	padding-top: 10px;
+	filter: invert(90%);
+	display: inline-block;
+	padding-right: 10px;
+}
+.contato p{
+	position: relative;
+	top: -5px;
+	margin: 0;
+	padding-right: 50px;
+	color: white;
+	display: inline-block;
+}
+.contato .wp{
+	padding-left: 120px;
+}
+.logo{
+	display: inline-block;
+}
+
+.logo .logo_img{
+	width: 330px;
+	height: 100px;
+	padding: 0px 150px 10px 110px;
+}
+
+
+/* ########## Botoes header ######### */
+
+.botoes-header li{
+	font-size: 19px;
+	display: inline-block;
+	padding-top: 25px;
+	padding-right: 30px;
+}
+
+.botoes-header a{
+	text-decoration: none;
+	color: black;
+	border-radius: 0px;
+	transition-duration: 0.5s;
+	border-style: solid;
+	border-color: white;
+	padding: 5px 12px 5px 12px;
+}
+.botoes-header a:hover{
+	color: white;
+	background-color: #4682B4;
+	border-style: solid;
+	border-radius: 20px;
+	padding: 5px 12px 5px 12px;
+}
+
+
